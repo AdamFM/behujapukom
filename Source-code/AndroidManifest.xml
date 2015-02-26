@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fikri.behujap"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.gojuon.Gojuon"
+            android:label="@string/title_activity_gojuon"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.Hiragana"
+            android:label="@string/title_activity_hiragana"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".StandarHira"
+            android:label="@string/title_activity_standar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fikri.menudrawer.MenuDrawerActivity"
+            android:label="@string/title_activity_menu_drawer"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.gojuon.GojuonK"
+            android:label="@string/title_activity_gojuon_k"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".HasilLat"
+            android:label="@string/title_activity_hasil_lat"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".LatHira4"
+            android:label="@string/title_activity_lat_hira4"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".LatHira5"
+            android:label="@string/title_activity_lat_hira5"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".LatHira3"
+            android:label="@string/title_activity_lat_hira3"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".LatHira2"
+            android:label="@string/title_activity_lat_hira2"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".LatHira1"
+            android:label="@string/title_activity_lat_hira1"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.Katakana"
+            android:label="@string/title_activity_katakana"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.gojuon.GojuonT"
+            android:label="@string/title_activity_gojuon_t"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.gojuon.GojuonS"
+            android:label="@string/title_activity_gojuon_s"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.dakuon.Dakuon"
+            android:label="@string/title_activity_dakuon"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.dakuon.DakuonZ"
+            android:label="@string/title_activity_dakuon_z"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.dakuon.DakuonP"
+            android:label="@string/title_activity_dakuon_p"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.yoon.Yoon"
+            android:label="@string/title_activity_yoon"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.yoon.YoonS"
+            android:label="@string/title_activity_yoon_s"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.yoon.YoonP"
+            android:label="@string/title_activity_yoon_p"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.gojuon.GojuonN"
+            android:label="@string/title_activity_gojuon_n"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.gojuon.GojuonH"
+            android:label="@string/title_activity_gojuon_h"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.gojuon.GojuonY"
+            android:label="@string/title_activity_gojuon_y"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.gojuon.GojuonR"
+            android:label="@string/title_activity_gojuon_r"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.gojuon.GojuonM"
+            android:label="@string/title_activity_gojuon_m"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.dakuon.DakuonD"
+            android:label="@string/title_activity_dakuon_d"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.dakuon.DakuonB"
+            android:label="@string/title_activity_dakuon_b"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.yoon.YoonC"
+            android:label="@string/title_activity_yoon_c"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.yoon.YoonH"
+            android:label="@string/title_activity_yoon_h"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.yoon.YoonN"
+            android:label="@string/title_activity_yoon_n"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.yoon.YoonM"
+            android:label="@string/title_activity_yoon_m"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.yoon.YoonR"
+            android:label="@string/title_activity_yoon_r"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.yoon.YoonG"
+            android:label="@string/title_activity_yoon_g"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.yoon.YoonJ"
+            android:label="@string/title_activity_yoon_j"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.hiragana.yoon.YoonB"
+            android:label="@string/title_activity_yoon_b"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.gojuon.Gojuon"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.gojuon.GojuonH"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.gojuon.GojuonK"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.gojuon.GojuonM"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.gojuon.GojuonN"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.gojuon.GojuonR"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.gojuon.GojuonS"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.gojuon.GojuonT"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.gojuon.GojuonY"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.dakuon.DakuonD"
+            android:label="@string/title_activity_gojuon_t"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.dakuon.DakuonB"
+            android:label="@string/title_activity_gojuon_s"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.dakuon.Dakuon"
+            android:label="@string/title_activity_dakuon"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.dakuon.DakuonZ"
+            android:label="@string/title_activity_dakuon_z"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.dakuon.DakuonP"
+            android:label="@string/title_activity_dakuon_p"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.yoon.YoonC"
+            android:label="@string/title_activity_yoon_c"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.yoon.YoonH"
+            android:label="@string/title_activity_yoon_h"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.yoon.YoonN"
+            android:label="@string/title_activity_yoon_n"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.yoon.YoonM"
+            android:label="@string/title_activity_yoon_m"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.yoon.YoonR"
+            android:label="@string/title_activity_yoon_r"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.yoon.YoonG"
+            android:label="@string/title_activity_yoon_g"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.yoon.YoonJ"
+            android:label="@string/title_activity_yoon_j"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.yoon.YoonB"
+            android:label="@string/title_activity_yoon_b"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.yoon.Yoon"
+            android:label="@string/title_activity_yoon"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.yoon.YoonS"
+            android:label="@string/title_activity_yoon_s"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fikri.katakana.yoon.YoonP"
+            android:label="@string/title_activity_yoon_p"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Kata"
+            android:label="@string/title_activity_kata"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Salam"
+            android:label="@string/title_activity_salam"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Warna"
+            android:label="@string/title_activity_warna"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about" 
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        </activity>
+    </application>
+
+</manifest>

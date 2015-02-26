@@ -33,8 +33,10 @@ Pada aplikasi ini user akan melakukan kegiatan berikut :
 
 Kredit
 -------
-* Nama 		: Adam Fikri Maulana
-* Kelas 	: XII-RPL
-* Sekolah	: SMK NEGERI 10 JAKARTA
-* Email 	: synergyshindou@gmail.com
-* Facebook	: https://www.facebook.com/koko.Davinci
+        |
+--------|----------------------
+Nama 	| Adam Fikri Maulana
+Kelas 	| XII-RPL
+Sekolah	| SMK NEGERI 10 JAKARTA
+Email 	| synergyshindou@gmail.com
+Facebook| https://www.facebook.com/koko.Davinci

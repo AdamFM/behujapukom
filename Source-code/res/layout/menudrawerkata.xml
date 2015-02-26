@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#000000">
+
+    <Button
+        android:id="@+id/btnVokalK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2ecc71"
+        android:text="Vokal"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnKK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2ecc71"
+        android:text="K"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnSK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2ecc71"
+        android:text="S"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnTK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2ecc71"
+        android:text="T"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnNK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2ecc71"
+        android:text="N"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnHK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2ecc71"
+        android:text="H"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnMK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2ecc71"
+        android:text="M"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnYK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2ecc71"
+        android:text="Y dan W"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnRK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2ecc71"
+        android:text="R"
+        android:textColor="#000000" />
+
+</LinearLayout>

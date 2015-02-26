@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#000000">
+
+    <Button
+        android:id="@+id/btnG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnVokal"
+        android:layout_centerHorizontal="true"
+        android:text="G"
+        android:textColor="#000000" 
+        android:background="#2ecc71"/>
+
+    <Button
+        android:id="@+id/btnD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2ecc71"
+        android:text="D"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnK"
+        android:text="Z"
+        android:textColor="#000000" 
+        android:background="#2ecc71"/>
+
+    <Button
+        android:id="@+id/btnB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2ecc71"
+        android:text="B"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2ecc71"
+        android:text="P"
+        android:textColor="#000000" />
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fikri.behujap.LatHira"
+    tools:ignore="MergeRootFrame" 
+    android:background="#81CFE0">
+
+    <EditText
+        android:id="@+id/ejawab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:gravity="center"
+        android:background="#ffffff"/>
+   
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:src="@drawable/oh" />
+
+    <Button
+        android:id="@+id/btncek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ejawab"
+        android:layout_alignRight="@+id/ejawab"
+        android:layout_below="@+id/ejawab"
+        android:layout_marginTop="16dp"
+        android:background="#2ecc71"
+        android:text="Cek Jawaban"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btncek"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+</RelativeLayout>
+

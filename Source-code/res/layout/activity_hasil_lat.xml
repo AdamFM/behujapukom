@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81CFE0">
+    
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+            
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/ah"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"/>
+            
+            <TextView                 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="35sp"
+                android:text="Hasil"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"/>
+            
+            <TextView         
+                android:id="@+id/hasil"        
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="35sp"
+                android:text=""
+                android:gravity="center"
+                android:layout_marginBottom="10dp"/>
+            
+            <Button
+                android:id="@+id/btnulang"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:background="#2ecc71"
+                android:gravity="center"
+                android:text="Ulang"
+                android:textColor="#000000"
+                android:textSize="22dp" />
+            
+            <Button
+                android:id="@+id/btnkembali"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:background="#2ecc71"
+                android:gravity="center"
+                android:text="Kembali"
+                android:textColor="#000000"
+                android:textSize="22dp" />
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

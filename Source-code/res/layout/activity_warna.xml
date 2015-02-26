@@ -1,0 +1,239 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.fikri.behujap.Warna"
+    android:background="#81CFE0" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#2ecc71"
+            android:text="WARNA"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TableRow
+            android:id="@+id/TableRow101"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </TableRow>
+
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" >
+
+		    <Button
+		        android:id="@+id/Button01"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@color/Black"
+		        android:text=" " />
+
+		    <TextView
+		        android:id="@+id/TextView01"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text=" "
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		    <Button
+		        android:id="@+id/Button02"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:background="#2ecc71"
+		        android:text="Kuroi" />
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" >
+
+		    <Button
+		        android:id="@+id/Button03"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@color/White"
+		        android:text=" " />
+
+		    <TextView
+		        android:id="@+id/TextView02"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text=" "
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		    <Button
+		        android:id="@+id/Button04"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:background="#2ecc71"
+		        android:text="Shiroi" />
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" >
+
+		    <Button
+		        android:id="@+id/button1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text=" " 
+		        android:background="@color/Red"/>
+
+		    <TextView
+		        android:id="@+id/textView11"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text=" "
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		    <Button
+		        android:id="@+id/button3"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="Akai" 
+		        android:background="#2ecc71"/>
+
+		</LinearLayout>
+				<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" >
+
+		    <Button
+		        android:id="@+id/butaston1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text=" " 
+		        android:background="@color/Blue"/>
+
+		    <TextView
+		        android:id="@+id/textV1fiew11"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text=" "
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		    <Button
+		        android:id="@+id/butaton3"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="Aoi" 
+		        android:background="#2ecc71"/>
+
+		</LinearLayout>
+		
+				<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" >
+
+		    <Button
+		        android:id="@+id/butto1n1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text=" " 
+		        android:background="@color/Green"/>
+
+		    <TextView
+		        android:id="@+id/textView1a1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text=" "
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		    <Button
+		        android:id="@+id/butt1fon3"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="Midori" 
+		        android:background="#2ecc71"/>
+
+		</LinearLayout>
+				<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" >
+
+		    <Button
+		        android:id="@+id/b1taon1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text=" " 
+		        android:background="@color/Purple"/>
+
+		    <TextView
+		        android:id="@+id/te1w11"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text=" "
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		    <Button
+		        android:id="@+id/butt1on3"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="Murasaki" 
+		        android:background="#2ecc71"/>
+
+		</LinearLayout>
+						<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" >
+
+		    <Button
+		        android:id="@+id/but11"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text=" " 
+		        android:background="@color/Yellow"/>
+
+		    <TextView
+		        android:id="@+id/te1ew11"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text=" "
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		    <Button
+		        android:id="@+id/bu33"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="Kiiro" 
+		        android:background="#2ecc71"/>
+
+		</LinearLayout>
+    </TableLayout>
+
+</RelativeLayout>

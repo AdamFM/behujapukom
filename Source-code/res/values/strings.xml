@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BEHUJAP</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">BEHUJAP</string>
+    <string name="title_activity_huruf_hiragana">Huruf Hiragana</string>
+    <string name="title_activity_gojuon">Huruf Standar</string>
+    <string name="title_activity_gojuon_hira">Gojuon Hira</string>
+    <string name="title_activity_hiragana">Hiragana</string>
+    <string name="title_section1">Huruf Dasar</string>
+    <string name="title_section2">Huruf Dakoun</string>
+    <string name="title_section3">Huruf Yoon</string>
+    <string name="title_vokal_hira">Huruf Vokal</string>
+    <string name="title_k_hira">Huruf K</string>
+    <string name="title_s_hira">Huruf S</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Menuju Ke Huruf</string>
+    <string name="action_examples">Kembali</string>
+    <string name="title_activity_standar">Huruf Standar</string>
+    <string name="title_activity_hira_navigator">HiraNavigator</string>
+
+    <string-array name="drawer_standar">
+        <item>Tabs</item>
+        <item>WebView</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_menu_drawer">MenuDrawerActivity</string>
+    <string name="title_activity_gojuon_k">Huruf K</string>
+    <string name="title_activity_lat_hira">Latihan Hiragana</string>
+    <string name="title_activity_lat_hira2">LatHira2</string>
+    <string name="title_activity_hasil_lat">HasilLat</string>
+    <string name="title_activity_lat_hira4">LatHira4</string>
+    <string name="title_activity_lat_hira5">LatHira5</string>
+    <string name="title_activity_lat_hira3">LatHira3</string>
+    <string name="title_activity_lat_hira1">LatHira1</string>
+    <string name="title_activity_katakana">Katakana</string>
+    <string name="title_activity_gojuon_t">GojuonT</string>
+    <string name="title_activity_gojuon_s">GojuonS</string>
+    <string name="title_activity_dakuon">Dakuon</string>
+    <string name="title_activity_dakuon_z">DakuonZ</string>
+    <string name="title_activity_dakuon_p">DakuonP</string>
+    <string name="title_activity_yoon">Yoon</string>
+    <string name="title_activity_yoon_s">YoonS</string>
+    <string name="title_activity_yoon_p">YoonP</string>
+    <string name="title_activity_assa">Assa</string>
+    <string name="title_activity_gojuon_n">GojuonN</string>
+    <string name="title_activity_gojuon_h">GojuonH</string>
+    <string name="title_activity_gojuon_y">GojuonY</string>
+    <string name="title_activity_gojuon_r">GojuonR</string>
+    <string name="title_activity_gojuon_m">GojuonM</string>
+    <string name="title_activity_dakuon_d">DakuonD</string>
+    <string name="title_activity_dakuon_b">DakuonB</string>
+    <string name="title_activity_yoon_c">YoonC</string>
+    <string name="title_activity_yoon_h">YoonH</string>
+    <string name="title_activity_yoon_n">YoonN</string>
+    <string name="title_activity_yoon_m">YoonM</string>
+    <string name="title_activity_yoon_r">YoonR</string>
+    <string name="title_activity_yoon_g">YoonG</string>
+    <string name="title_activity_yoon_j">YoonJ</string>
+    <string name="title_activity_yoon_b">YoonB</string>
+    <string name="title_activity_kata">Kata</string>
+    <string name="title_activity_salam">Salam</string>
+    <string name="title_activity_warna">Warna</string>
+    <string name="title_activity_about">About</string>
+
+</resources>
