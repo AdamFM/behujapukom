@@ -1,5 +1,8 @@
 # Behujap 
 ==========
+Version 1.0 - Kamis, 26 Feb 2015
+
+by Adam Fikri Maulana
 
 Sinopsis
 ---------
@@ -19,3 +22,19 @@ Manfaat
 Pengguna
 --------
 Semua orang yang ingin belajar huruf jepang.
+
+Kegiatan
+-------
+Pada aplikasi ini user akan melakukan kegiatan berikut :
+1. Mengenal dan memahami huruf hiragana.
+2. Mengenal dan memahami huruf katakana.
+3. Menguji kemampuan huruf hiragana.
+4. Mempelajari kosa kata bahasa Jepang.
+
+Kredit
+-------
+Nama \t: Adam Fikri Maulana
+Kelas \t: XII-RPL
+Sekolah \t: SMK NEGERI 10 JAKARTA
+Email \t: synergyshindou@gmail.com
+Facebook \t: https://www.facebook.com/koko.Davinci
