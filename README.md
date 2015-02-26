@@ -34,7 +34,7 @@ Pada aplikasi ini user akan melakukan kegiatan berikut :
 Kredit
 -------------------
 
-Header        | Header
+      | Detail
 ------------|------------
 Nama | Adam Fikri Maulana
 Kelas | XII-RPL
