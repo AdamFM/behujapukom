@@ -32,11 +32,12 @@ Pada aplikasi ini user akan melakukan kegiatan berikut :
 * Mempelajari kosa kata bahasa Jepang.
 
 Kredit
--------
-        |
---------|----------------------
-Nama 	| Adam Fikri Maulana
-Kelas 	| XII-RPL
-Sekolah	| SMK NEGERI 10 JAKARTA
-Email 	| synergyshindou@gmail.com
-Facebook| https://www.facebook.com/koko.Davinci
+-------------------
+
+         |
+------------|------------
+Nama | Adam Fikri Maulana
+Kelas | XII-RPL
+Sekolah | SMK NEGERI 10 JAKARTA
+Email | synergyshindou@gmail.com
+Facebook | https://www.facebook.com/koko.Davinci
